@@ -125,7 +125,7 @@ body{
     padding: 188px 0;
 }
 
-.first-section-item {
+.container {
     display: flex;
 }
 
@@ -165,10 +165,6 @@ body{
     padding: 120px 0;
 }
 
-.second-item{
-    display:flex;
-}
-
 .second-item-title{
     display:none;
 }
@@ -184,8 +180,11 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+    
 } 
+.second-section-list{
+    width: calc((100% - 72px) / 4);
+}
 
 .second-text{
     line-height: 1.5;
@@ -195,6 +194,8 @@ body{
 
 .third{
     background-color: #f4f4fd;
+    display: flex;
+    padding: 120px;
     
 }
 .our-team{
@@ -204,10 +205,18 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+.third-item{
+    display: flex;
+    gap: 24px;
 }
 
 .third-article{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
 }
 
 .third-employee{
@@ -216,13 +225,20 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.third-text{
+.third-employee-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    text-align: center;
+}
+
+.forth {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio{
@@ -232,7 +248,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2E2F42;
-
+    margin-bottom: 72px;
 }
 
 .forth-header{
@@ -240,19 +256,34 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2E2F42 
-
+    color:#2E2F42;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .forth-text{
     letter-spacing: 0.02em;
     line-height: 1.5;
     color:#434455;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     
+}
+.forth-item{
+    display: flex; 
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+.forth-item-img{
+    width: calc((100% - 48px) / 3);
 }
 
 .footer{
     background-color:#2E2F42;
+    padding: 100px 0;
 
 }
 
@@ -264,6 +295,8 @@ body{
     text-transform: uppercase;
     color:#4D5AE5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo{
@@ -275,4 +308,5 @@ body{
     line-height: 1.5;
     color:#f4f4fd;
     letter-spacing:0.02em;
+    max-width: 264px;
 }
