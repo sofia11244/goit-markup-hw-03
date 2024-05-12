@@ -39,7 +39,7 @@ body{
     
 }
 
-.logo-item{
+.container-header{
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -50,7 +50,6 @@ body{
 .nav-main{
     display: flex;
     align-items: center;
-    
     gap: 40px;
 }
 
@@ -83,6 +82,7 @@ body{
     color:#4D5AE5;
     display: flex;
     gap:40px;
+    padding: 24px 0;
 }
 
 .alt-nav{
@@ -91,28 +91,28 @@ body{
     line-height:1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
-    padding: 24px 0;
+    
 }
 
 
-.address{
+.header-address{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
     text-decoration:none;
-    display: flex;
-    gap: 40px;
+   
 }
 
 .alt-address{
     color: #434455;
+    display: flex;
 }
 
 .alt-address:hover{
     color:#404BBF;
     cursor:pointer;
-
+    gap: 40px;
 }
 
 .alt-address:focus{
@@ -299,6 +299,7 @@ body{
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
+    display:inline-block;
 }
 
 .footer-logo{
