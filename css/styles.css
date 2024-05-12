@@ -34,13 +34,20 @@ body{
 }
 
 .logo-link{
-    font-family: "Raleway", sans-serif;
-    font-size:18px;
-    line-height:1.17;
+    color: var(--NAVY-BLUE, #4d5ae5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+.nav-logo{
+    margin-right: 76px;
 }
 
 .logo-span {
@@ -52,20 +59,31 @@ body{
     display: flex;
     align-items: center;
     border: 1px solid #ffffff;
+    width: 1158px;
+    padding: 0 15px 0 15px;
 }
 
 .nav-main{
     align-items: center;
     gap: 40px;
+    display: flex;
+
 }
 
 ul{
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
     text-decoration: none;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -73,7 +91,7 @@ a{
 .nav-item {
     color: #2E2F42; 
     text-decoration: none;
-
+    
 }
 
 .nav-item:hover{
@@ -85,7 +103,6 @@ a{
 }
 
 .nav-list{
-    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -103,31 +120,36 @@ a{
     line-height:1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
-    
+   
 }
 
 
-.header-address{
+.address{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
     font-weight: 400;
     margin-left: auto;
+   
 }
 
 .alt-address{
+    gap: 40px;
+    display: flex;
+}
+.alt-address-item{
     color: #434455;
     display: flex;
 }
 
-.alt-address:hover{
+.alt-address-item:hover{
     color:#404BBF;
     cursor:pointer;
     gap: 40px;
 }
 
-.alt-address:focus{
+.alt-address-item:focus{
     color:#404BBF;
     cursor:pointer;
 }
@@ -213,10 +235,15 @@ a{
     color: #434455
 }
 
+.features{
+    display: none;
+}
+
 .third{
     background-color: #f4f4fd;
     display: flex;
     padding: 120px 0px;
+    text-align: center;
     
 }
 .our-team{
@@ -231,6 +258,9 @@ a{
 .third-item{
     display: flex;
     gap: 24px;
+}
+.third-text{
+    text-align: center;
 }
 
 .third-article{
