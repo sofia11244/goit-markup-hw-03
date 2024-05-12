@@ -5,9 +5,25 @@
     margin: 0;
     padding: 0;
 }
+ul{
+    margin:0;
+    padding:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin:0;
+}
+
 img{
     display: block;
 }
+
 body{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -41,7 +57,6 @@ body{
     color: #2E2F42;
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
-    margin-right: 76px;
 }
 
 .logo-link{
@@ -55,6 +70,7 @@ body{
     text-transform: uppercase;
     align-items: center;
     display: block;
+    margin-right:76px;
 }
 
 
@@ -64,13 +80,10 @@ body{
 }
 
 .container-header{
-    border-bottom: 1px;
     display: flex;
-    align-items: center;
-    border: 1px solid #ffffff;
-    width: 1158px;
-    padding: 0 15px 0 15px;
+    height: 100%;
     margin: 0 auto;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -78,7 +91,6 @@ body{
     align-items: center;
     gap: 40px;
     display: flex;
-    margin-right: 76px;
 }
 
 ul{
@@ -114,9 +126,6 @@ a{
     color: #404BBF;
 }
 
-.nav-logo{
-    margin-right: 76px;
-}
 
 .nav-list{
     font-weight: 700;
@@ -128,6 +137,7 @@ a{
     display: flex;
     gap:40px;
     padding: 24px 0;
+    margin-left:76px;
 }
 
 .alt-nav{
@@ -221,10 +231,6 @@ a{
 
 .second{
     padding: 120px 0;
-}
-
-.visually-hidden{
-    display:none;
 }
 
 .second-section{
