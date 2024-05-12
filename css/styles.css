@@ -71,12 +71,15 @@ body{
     border: 1px solid #ffffff;
     width: 1158px;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .nav-main{
     align-items: center;
     gap: 40px;
     display: flex;
+    margin-right: 76px;
 
 }
 
@@ -96,6 +99,7 @@ h3 {
 
 a{
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav-item {
@@ -243,10 +247,6 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
-}
-
-.features{
-    display: none;
 }
 
 .third{
