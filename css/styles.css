@@ -114,6 +114,10 @@ a{
     color: #404BBF;
 }
 
+.nav-logo{
+    margin-right: 76px;
+}
+
 .nav-list{
     font-weight: 700;
     font-size: 18px;
